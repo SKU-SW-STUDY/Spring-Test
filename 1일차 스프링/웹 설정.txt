@@ -1,0 +1,13 @@
+[build.gradle]
+1. implementation 'org.springframework.boot:spring-boot-starter-web'
+
+2. implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+
+[application.properties]
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+
+1. 설정
+2. view Resolver
+3. controller
+4. REST
